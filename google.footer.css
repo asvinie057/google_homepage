@@ -1,0 +1,98 @@
+header{
+		display: flex;
+		
+			justify-content: flex-end;
+			align-content: center;
+			align-items: center;
+
+	}
+.photo1 img{
+	width: 32px;
+	height: 32px;
+	margin: 10px;
+	padding: : 0 10px 0 10px;
+}
+.gmail a{
+	margin: 10px;
+	padding: : 0 10px 0 10px;
+}
+	
+
+.div-border{
+	border: 1px rgba(130,130,130,0.4) solid;
+	padding: 7px 10px;
+	box-shadow: 1px 1px 0 rgba(130,130,130,0.2);
+
+}
+.rech {
+	display: flex;
+	justify-content: space-between;
+    width: 500px;
+    border-style: none;
+
+
+}
+.rech:focus{
+	 outline: none;
+
+}
+
+section
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+form
+{
+	padding-top: 20px;
+	text-align: center;
+
+}
+footer 
+{
+	background-color: #E5E8E8  ;
+	color: 	rgba(0,0,0,.54);
+	font-family: arial;
+	font-size: 13px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	line-height: 30px;
+}
+
+.C {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+
+}
+
+.A {border-bottom-color: grey ;
+    border-bottom-style: ridge;
+    border-bottom-width: 1px;
+    border-top: 1px solid #grey
+}
+
+.B {
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+}
+
+.B a {
+	text-decoration:none;
+	color: rgba(0,0,0,.54);
+	margin-left: 15px;
+}
+
+.C a { 
+	text-decoration: none;
+	color:rgba(0,0,0,.54);
+	margin-right: 15px;
+}
+.C a hover { text-decoration: underline; }
+
+.A p {margin-left: 15px;}
